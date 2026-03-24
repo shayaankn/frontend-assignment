@@ -1,9 +1,15 @@
-import Main from "./components/Main";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Packages from "./components/Packages";
+import Newsletter from "./components/Newsletter";
 
 function App() {
   return (
     <>
-      <Main />
+      <Navbar />
+      <Hero />
+      <Packages />
+      <Newsletter />
     </>
   );
 }
