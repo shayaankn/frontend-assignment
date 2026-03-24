@@ -29,7 +29,7 @@ function Navbar() {
             </h5>
             <button
               type="button"
-              class="btn-close btn-close-white"
+              class="btn-close"
               data-bs-dismiss="offcanvas"
               aria-label="Close"
             ></button>
@@ -59,7 +59,7 @@ function Navbar() {
             </ul>
             <div className="d-flex flex-row gap-2 mt-4 mt-lg-0">
               <button class="btn btn-outline-success border-0">Login</button>
-              <button class="btn btn-success px-4">
+              <button class="btn btn-success px-lg-4">
                 Join Us <i className="bi bi-arrow-right-short ms-1"></i>
               </button>
             </div>
