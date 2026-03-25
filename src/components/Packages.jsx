@@ -1,3 +1,6 @@
+import blackboardIcon from "../assets/icons/blackboard.svg";
+import telescopeIcon from "../assets/icons/telescope.svg";
+
 function Packages() {
   return (
     <section className="py-5">
@@ -48,7 +51,11 @@ function Packages() {
                       className="rounded-3 bg-success text-light d-flex align-items-center justify-content-center mb-3"
                       style={{ width: 56, height: 56 }}
                     >
-                      <i className="bi bi-person-workspace fs-4"></i>
+                      <img
+                        src={blackboardIcon}
+                        alt="Blackboard"
+                        style={{ width: 24, height: 24 }}
+                      />
                     </div>
                     <h5 className="fw-bold mb-3">Certified Teacher</h5>
                     <div
@@ -73,7 +80,11 @@ function Packages() {
                       className="rounded-3 bg-success text-light d-flex align-items-center justify-content-center mb-3"
                       style={{ width: 56, height: 56 }}
                     >
-                      <i className="bi bi-flask fs-4"></i>
+                      <img
+                        src={telescopeIcon}
+                        alt="Telescope"
+                        style={{ width: 24, height: 24 }}
+                      />
                     </div>
                     <h5 className="fw-bold mb-3">Expert Instruction</h5>
                     <div
