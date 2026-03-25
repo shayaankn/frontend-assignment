@@ -1,4 +1,30 @@
+import React, { useState } from "react";
+
 function Newsletter() {
+  const [email, setEmail] = useState("");
+  const [error, setError] = useState("");
+
+  const validateEmail = (value) => {
+    const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return re.test(value);
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (!email) {
+      setError("Please enter your email.");
+      return;
+    }
+    if (!validateEmail(email)) {
+      setError("Please enter a valid email address.");
+      return;
+    }
+
+    setError("");
+    // TODO: replace with real submit logic
+    console.log("Subscribed:", email);
+  };
+
   return (
     <section className="bg-brand py-5">
       <div className="container py-md-3">
@@ -6,25 +32,30 @@ function Newsletter() {
           <div className="col-12 col-md-8 col-xl-6">
             <p className="text-success fw-semibold mb-2">Newsletter</p>
             <h3 className="fw-bold mb-3">Watch our Courses</h3>
-            <p className="text-muted fw-medium mb-5">
+            <p className="text-muted fw-medium mb-4">
               Problems trying to resolve the conflict between the two major
               realms of Classical physics: Newtonian mechanics
             </p>
 
-            <div className="input-group">
-              <input
-                type="email"
-                className="form-control rounded-0"
-                placeholder="Your Email"
-                aria-label="Your Email"
-              />
-              <button
-                className="btn btn-success btn-lg rounded-0 px-4"
-                type="button"
-              >
-                Subscribe
-              </button>
-            </div>
+            <form onSubmit={handleSubmit} noValidate>
+              <div className="input-group">
+                <input
+                  type="email"
+                  className={`form-control rounded-0 ${error ? "is-invalid" : ""}`}
+                  placeholder="Your Email"
+                  aria-label="Your Email"
+                  value={email}
+                  onChange={(ev) => setEmail(ev.target.value)}
+                />
+                <button
+                  className="btn btn-success btn-lg rounded-0 px-4"
+                  type="submit"
+                >
+                  Subscribe
+                </button>
+              </div>
+              {error && <div className="invalid-feedback d-block mt-2">{error}</div>}
+            </form>
           </div>
         </div>
       </div>

@@ -23,7 +23,7 @@ function Hero() {
             </div>
           </div>
 
-          <div className="col-md-6 col-xl-4 offset-xl-1 text-center">
+          <div className="col-md-6 offset-xl-1 text-center">
             <img src={heroImg} alt="Hero" className="img-fluid" />
           </div>
         </div>
