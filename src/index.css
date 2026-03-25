@@ -5,3 +5,32 @@ body {
 .bg-brand {
   background-color: #fdf3f1;
 }
+
+.text-success {
+  color: #96ba7b !important;
+}
+
+.bg-success {
+  background-color: #96ba7b !important;
+}
+
+.btn-success {
+  background-color: #96ba7b;
+  border-color: #96ba7b;
+}
+
+.btn-success:hover {
+  background-color: #86a96c;
+  border-color: #86a96c;
+}
+
+.btn-outline-success {
+  color: #96ba7b;
+  border-color: #96ba7b;
+}
+
+.btn-outline-success:hover {
+  background-color: #96ba7b;
+  border-color: #96ba7b;
+  color: #fff;
+}

@@ -8,7 +8,7 @@ function Packages() {
               style={{
                 width: 60,
                 height: 6,
-                background: "#A01A10",
+                background: "#cd3328",
                 marginBottom: 24,
               }}
             />
@@ -53,9 +53,9 @@ function Packages() {
                     <h5 className="fw-bold mb-3">Certified Teacher</h5>
                     <div
                       style={{
-                        width: 40,
-                        height: 4,
-                        background: "#A01A10",
+                        width: 48,
+                        height: 2,
+                        background: "#cd3328",
                         marginBottom: 12,
                       }}
                     />
@@ -78,9 +78,9 @@ function Packages() {
                     <h5 className="fw-bold mb-3">Expert Instruction</h5>
                     <div
                       style={{
-                        width: 40,
-                        height: 4,
-                        background: "#A01A10",
+                        width: 48,
+                        height: 2,
+                        background: "#cd3328",
                         marginBottom: 12,
                       }}
                     />

@@ -14,10 +14,10 @@ function Hero() {
               Our goal is to make online education work for everyone
             </p>
             <div className="mt-4 d-flex gap-2">
-              <a className="btn btn-success btn-lg px-4" href="#">
+              <a className="btn btn-success px-3 py-2" href="#">
                 Join Us
               </a>
-              <a className="btn btn-outline-success btn-lg px-4" href="#">
+              <a className="btn btn-outline-success px-3 py-2" href="#">
                 Learn More
               </a>
             </div>
