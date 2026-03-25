@@ -6,22 +6,22 @@ function Packages() {
     <section className="py-5">
       <div className="container py-md-5">
         <div className="row align-items-start">
-          <div className="col-lg-6 mb-5 mb-md-0">
+          <div className="col-lg-5 mb-5 mb-md-0">
             <div
               style={{
-                width: 60,
-                height: 6,
-                background: "#cd3328",
-                marginBottom: 24,
+                width: 94,
+                height: 7,
+                background: "#E74040",
+                marginBottom: 28,
               }}
             />
             <h2 className="fw-bold display-6">Affordable Packages</h2>
-            <p className="fw-medium text-muted mt-4">
+            <p className="fw-medium text-muted small mt-4">
               Problems trying to resolve the conflict between the two major
               realms of Classical physics: Newtonian mechanics
             </p>
             <a
-              className="icon-link icon-link-hover text-decoration-none text-success mt-3"
+              className="icon-link icon-link-hover text-decoration-none fw-semibold text-success small mt-3"
               href="#"
             >
               Learn More
@@ -42,10 +42,10 @@ function Packages() {
             </a>
           </div>
 
-          <div className="col-lg-6">
+          <div className="col-lg-6 offset-lg-1">
             <div className="row g-4">
               <div className="col-md-6">
-                <div className="card h-100 shadow border-0">
+                <div className="card packages-card h-100 shadow border-0">
                   <div className="card-body">
                     <div
                       className="rounded-3 bg-success text-light d-flex align-items-center justify-content-center mb-3"
@@ -57,12 +57,12 @@ function Packages() {
                         style={{ width: 24, height: 24 }}
                       />
                     </div>
-                    <h5 className="fw-bold mb-3">Certified Teacher</h5>
+                    <h5 className="fw-bold fs-6 mb-3">Certified Teacher</h5>
                     <div
                       style={{
                         width: 48,
                         height: 2,
-                        background: "#cd3328",
+                        background: "#E74040",
                         marginBottom: 12,
                       }}
                     />
@@ -74,7 +74,7 @@ function Packages() {
               </div>
 
               <div className="col-md-6">
-                <div className="card h-100 shadow border-0">
+                <div className="card packages-card h-100 shadow border-0">
                   <div className="card-body">
                     <div
                       className="rounded-3 bg-success text-light d-flex align-items-center justify-content-center mb-3"
@@ -86,12 +86,12 @@ function Packages() {
                         style={{ width: 24, height: 24 }}
                       />
                     </div>
-                    <h5 className="fw-bold mb-3">Expert Instruction</h5>
+                    <h5 className="fw-bold fs-6 mb-3">Expert Instruction</h5>
                     <div
                       style={{
                         width: 48,
                         height: 2,
-                        background: "#cd3328",
+                        background: "#E74040",
                         marginBottom: 12,
                       }}
                     />

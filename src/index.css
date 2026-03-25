@@ -1,9 +1,13 @@
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .bg-brand {
-  background-color: #fdf3f1;
+  background-color: #fff2f3;
+}
+
+.text-muted {
+  color: #737373 !important;
 }
 
 .text-success {
@@ -12,6 +16,19 @@ body {
 
 .bg-success {
   background-color: #96ba7b !important;
+}
+
+.btn {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.btn-hero {
+  padding: 15px 40px;
+}
+
+.btn-navbar {
+  padding: 15px 25px;
 }
 
 .btn-success {
@@ -33,4 +50,18 @@ body {
   background-color: #96ba7b;
   border-color: #96ba7b;
   color: #fff;
+}
+
+.nav-link {
+  font-size: 14px;
+}
+
+.packages-card {
+  padding: 35px 40px;
+  border-radius: 0;
+  box-shadow: 0px 13px 19px 0px #00000012 !important;
+}
+
+.packages-card .card-body {
+  padding: 0;
 }
