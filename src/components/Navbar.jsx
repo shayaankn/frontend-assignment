@@ -38,7 +38,7 @@ function Navbar() {
             <ul className="navbar-nav justify-content-start align-items-lg-center flex-grow-1 pe-3">
               <li className="nav-item">
                 <a
-                  className="nav-link text-muted fw-medium active"
+                  className="nav-link text-muted fw-semibold active"
                   aria-current="page"
                   href="#"
                 >
@@ -46,17 +46,17 @@ function Navbar() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-muted fw-medium" href="#">
+                <a className="nav-link text-muted fw-semibold" href="#">
                   Product
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-muted fw-medium" href="#">
+                <a className="nav-link text-muted fw-semibold" href="#">
                   Pricing
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-muted fw-medium" href="#">
+                <a className="nav-link text-muted fw-semibold" href="#">
                   Contact
                 </a>
               </li>

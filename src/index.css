@@ -31,6 +31,11 @@ body {
   padding: 15px 25px;
 }
 
+.btn-newsletter {
+  padding: 15px 25px;
+  border-radius: 0;
+}
+
 .btn-success {
   background-color: #96ba7b;
   border-color: #96ba7b;
@@ -56,12 +61,41 @@ body {
   font-size: 14px;
 }
 
+.card {
+  box-shadow: 0px 13px 19px 0px #00000012 !important;
+}
+
 .packages-card {
   padding: 35px 40px;
   border-radius: 0;
-  box-shadow: 0px 13px 19px 0px #00000012 !important;
 }
 
 .packages-card .card-body {
   padding: 0;
+}
+
+.team-card {
+  border-radius: 20px;
+}
+
+.team-card .rounded-top {
+  border-top-left-radius: 20px !important;
+  border-top-right-radius: 20px !important;
+}
+
+.team-card .card-body {
+  padding: 30px;
+}
+
+.team-card .occupation {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.social-icon {
+  font-size: 24px !important;
+}
+
+.sub-footer {
+  background-color: #fafafa;
 }
