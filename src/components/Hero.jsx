@@ -10,7 +10,7 @@ function Hero() {
             <h1 className="display-4 fw-bold mb-4">
               Best Learning Opportunities
             </h1>
-            <p className="fs-5 fw-semibold text-muted">
+            <p className="fs-5 fw-medium text-muted">
               Our goal is to make online education work for everyone
             </p>
             <div className="mt-4 d-flex gap-2">

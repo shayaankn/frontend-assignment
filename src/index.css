@@ -1,3 +1,7 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
 .bg-brand {
-  background-color: #FDF3F1;
+  background-color: #fdf3f1;
 }
