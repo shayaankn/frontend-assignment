@@ -27,7 +27,7 @@ function Newsletter() {
 
   return (
     <section className="bg-brand py-5">
-      <div className="container py-md-5">
+      <div className="container py-md-5 my-md-3">
         <div className="row justify-content-center text-center">
           <div className="col-12 col-md-8 col-xl-6">
             <p className="text-success fw-semibold small mb-3">Newsletter</p>
@@ -41,7 +41,7 @@ function Newsletter() {
               <div className="input-group">
                 <input
                   type="email"
-                  className={`form-control form-control-sm rounded-0 ${error ? "is-invalid" : ""}`}
+                  className={`form-control form-control-sm ${error ? "is-invalid" : ""}`}
                   placeholder="Your Email"
                   aria-label="Your Email"
                   value={email}
@@ -54,7 +54,9 @@ function Newsletter() {
                   Subscribe
                 </button>
               </div>
-              {error && <div className="invalid-feedback d-block mt-2">{error}</div>}
+              {error && (
+                <div className="invalid-feedback d-block mt-2">{error}</div>
+              )}
             </form>
           </div>
         </div>

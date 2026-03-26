@@ -18,6 +18,14 @@ body {
   background-color: #96ba7b !important;
 }
 
+.navbar {
+  height: 91px;
+}
+
+.nav-link {
+  font-size: 14px;
+}
+
 .btn {
   font-size: 14px;
   font-weight: 600;
@@ -33,7 +41,6 @@ body {
 
 .btn-newsletter {
   padding: 15px 25px;
-  border-radius: 0;
 }
 
 .btn-success {
@@ -55,10 +62,6 @@ body {
   background-color: #96ba7b;
   border-color: #96ba7b;
   color: #fff;
-}
-
-.nav-link {
-  font-size: 14px;
 }
 
 .card {

@@ -43,27 +43,28 @@ function Packages() {
           </div>
 
           <div className="col-lg-6 offset-lg-1">
-            <div className="row g-4">
+            <div className="row g-3">
               <div className="col-md-6">
                 <div className="card packages-card h-100 shadow border-0">
                   <div className="card-body">
                     <div
-                      className="rounded-3 bg-success text-light d-flex align-items-center justify-content-center mb-3"
-                      style={{ width: 56, height: 56 }}
+                      className="rounded-3 bg-success text-light d-flex align-items-center justify-content-center mb-4"
+                      style={{ width: 70, height: 76 }}
                     >
                       <img
                         src={blackboardIcon}
                         alt="Blackboard"
-                        style={{ width: 24, height: 24 }}
+                        style={{ width: 32, height: 32 }}
                       />
                     </div>
-                    <h5 className="fw-bold fs-6 mb-3">Certified Teacher</h5>
+                    <h5 className="fw-bold fs-6">Certified Teacher</h5>
                     <div
                       style={{
-                        width: 48,
+                        width: 50,
                         height: 2,
                         background: "#E74040",
-                        marginBottom: 12,
+                        marginBottom: 18,
+                        marginTop: 18,
                       }}
                     />
                     <p className="text-muted fw-medium small mb-0">
@@ -77,22 +78,23 @@ function Packages() {
                 <div className="card packages-card h-100 shadow border-0">
                   <div className="card-body">
                     <div
-                      className="rounded-3 bg-success text-light d-flex align-items-center justify-content-center mb-3"
-                      style={{ width: 56, height: 56 }}
+                      className="rounded-3 bg-success text-light d-flex align-items-center justify-content-center mb-4"
+                      style={{ width: 70, height: 76 }}
                     >
                       <img
                         src={telescopeIcon}
                         alt="Telescope"
-                        style={{ width: 24, height: 24 }}
+                        style={{ width: 32, height: 32 }}
                       />
                     </div>
-                    <h5 className="fw-bold fs-6 mb-3">Expert Instruction</h5>
+                    <h5 className="fw-bold fs-6">Expert Instruction</h5>
                     <div
                       style={{
-                        width: 48,
+                        width: 50,
                         height: 2,
                         background: "#E74040",
-                        marginBottom: 12,
+                        marginBottom: 18,
+                        marginTop: 18,
                       }}
                     />
                     <p className="text-muted fw-medium small mb-0">
